@@ -1,0 +1,60 @@
+.heads{
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+}
+.so-button{
+    background-color: black;
+    color: rgb(252, 252, 252);
+    border: none;
+    border-radius: 12px;
+    padding: 9px 25px;
+    
+}
+
+.banner-bg{
+    border-radius: 10px;
+    background-image: url(images/bg-1.png), url(images/bg-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, bottom left;
+    padding-bottom: 200px;
+    
+}
+
+.carousel-indicators li:hover{
+    background-color: orange;
+    width:30px;
+    height:10px;
+    border-radius: 14px;
+
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: rgb(71, 69, 69);
+  }
+  .container{
+    padding: 50px;
+}
+.all{
+    float: right;
+    color:orange;
+}
+.card-body{
+    text-align: center;
+}
+.price{
+    padding-bottom: 20px;
+}
+.card{
+    border:none;
+    box-shadow: 2px 2px 10px lightgray;
+}
+
+.align{
+    text-align: center;
+    padding: 50px;
+}
+.what{
+    align-items: baseline;
+}
